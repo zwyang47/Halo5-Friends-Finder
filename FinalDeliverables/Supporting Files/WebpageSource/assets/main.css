@@ -1,0 +1,72 @@
+body {
+    background-image: url("halo-5.jpg");
+    background-size:100%;
+    background-color: rgb(191, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+.body-wrapper {
+    max-width: 570px;
+    background-color: #fff;
+    border: 1px solid #555;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+.error {color: #FF0000;}
+
+.row {
+    width: auto;
+    display: block;
+    padding: 0;
+    margin: 10;
+}
+.row-contents {
+    margin: 5px;
+}
+
+
+#title-logo {
+    margin-left: 10px;
+}
+
+.header {
+    width: auto;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.inline-form {
+    display: inline-block;
+}
+
+.main-title span {
+    display: inline-block;
+    font-size: 30px;
+}
+
+span.subtitle {
+    display: inline-block;
+    font-size: 22px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+
+table {
+    width: 100%;
+    display: block;
+    border-collapse: collapse; 
+    margin: 20px;
+}
+
+td {
+    height: 27px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: 5px;
+    padding-right: 20px;
+}
